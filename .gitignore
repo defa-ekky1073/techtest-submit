@@ -1,27 +1,27 @@
-cookbook/techtest/.vagrant
-cookbook/techtest/*~
-cookbook/techtest/*#
-cookbook/techtest/.#*
-cookbook/techtest/\#*#
-cookbook/techtest/.*.sw[a-z]
-cookbook/techtest/*.un~
+techtest/.vagrant
+techtest/*~
+techtest/*#
+techtest/.#*
+techtest/\#*#
+techtest/.*.sw[a-z]
+techtest/*.un~
 
 # Bundler
-cookbook/techtest/Gemfile.lock
-cookbook/techtest/gems.locked
-cookbook/techtest/bin/*
-cookbook/techtest/.bundle/*
+techtest/Gemfile.lock
+techtest/gems.locked
+techtest/bin/*
+techtest/.bundle/*
 
 # test kitchen
-cookbook/techtest/.kitchen/
-cookbook/techtest/kitchen.local.yml
+techtest/.kitchen/
+techtest/kitchen.local.yml
 
 # Chef Infra
-cookbook/techtest/Berksfile.lock
-cookbook/techtest/.zero-knife.rb
-cookbook/techtest/Policyfile.lock.json
+techtest/Berksfile.lock
+techtest/.zero-knife.rb
+techtest/Policyfile.lock.json
 
-cookbook/techtest/.idea/
+techtest/.idea/
 
 # Local .terraform directories
 terraform/.terraform/*

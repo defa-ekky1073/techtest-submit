@@ -38,7 +38,7 @@ To layout the terraform plan to be applied
 To apply the specified plan to the provider
 
 ### Step 2: Upload Techtest Cookbook to your Chef Server/Chef Manage
-With assumption that you have installed the Chef Workstation ([instruction here](https://docs.chef.io/workstation/install_workstation/)) and have Chef Server/Chef Manage fired up and ready to go, you can copy cookbook directory to your `chef-repo` cookbook directory, then run
+With assumption that you have installed the Chef Workstation ([instruction here](https://docs.chef.io/workstation/install_workstation/)) and have Chef Server/Chef Manage fired up and ready to go, you can copy techtest cookbook directory to your `chef-repo` cookbook directory, then run
 
 > berks install
 
