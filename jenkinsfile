@@ -1,0 +1,23 @@
+pipeline {
+
+    // Use node worker with 'slage-agent-docker' label
+    agent { label 'slave-agent-docker' }
+
+    stages {
+        stage ('Clone') {
+            steps {
+                echo 'Cloning SCM ...'
+                git 'https://github.com/defa-ekky1073/swarm-microservice-demo-v1.git'
+            }
+        }
+        stage ('Deploy') {
+            steps {
+                echo 'Build image and deploy using docker-compose ...'
+
+                sh """
+                docker-compose up -d
+                """
+            }
+        }
+    }
+}

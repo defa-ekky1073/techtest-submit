@@ -1,0 +1,4 @@
+Host *
+  IdentityFile /home/ubuntu/.ssh/instance.key
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
